@@ -80,7 +80,7 @@ app.use('/registers',require('./routes/registers') )
 mongoose.connect('mongodb://siddhu2588:siddhu2588@ds263571.mlab.com:63571/printingparadise')
 
 //listening 
-app.listen(Process.env.PORT , Process.env.IP , ()=> {
+app.listen(process.env.PORT , process.env.IP , ()=> {
 
 // })
     // console.log('server started at http://localhost:9000')
